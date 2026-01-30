@@ -37,3 +37,23 @@ pip install -r requirements.txt
 
 PS C:\Users\acharbha\Downloads\redpanda_console_2.7.1_windows_amd64> .\redpanda-console.exe --config.filepath "config.yaml" --kafka.sasl.password "password"
 
+
+https://wiki.ith.intel.com/spaces/DBaas/pages/3943471278/Kafka+GUI
+
+
+Create .env file and store
+KAFKA_USERNAME=
+KAFKA_PASSWORD=
+
+
+then run these
+python3 kafka-connect.py
+python3 kafka-producer.py
+python3 kafka-consumer.py
+
+You should be able to see the topic create on http://localhost:8080/
+
+
+
+
+
