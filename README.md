@@ -22,7 +22,7 @@ This project demonstrates Kafka consumer and producer implementation for process
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/JagrutiMohantyIntel/Streaming-Kafka-Python.git
 
 
 
@@ -36,3 +36,4 @@ pip install -r requirements.txt
 
 
 PS C:\Users\acharbha\Downloads\redpanda_console_2.7.1_windows_amd64> .\redpanda-console.exe --config.filepath "config.yaml" --kafka.sasl.password "password"
+
