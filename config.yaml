@@ -1,0 +1,10 @@
+kafka:
+  brokers:
+    - "10-63-84-38.dbaas.intel.com:9094"
+    - "10-63-84-39.dbaas.intel.com:9094"
+  sasl:
+    enabled: true
+    mechanism: SCRAM-SHA-512
+    username: rlzx7bisi60z7utnf5bf_admin
+  tls:
+    enabled: true
